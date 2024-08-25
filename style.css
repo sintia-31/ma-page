@@ -1,0 +1,19 @@
+
+body{
+    margin: 0 auto;
+    
+    
+}
+#haut {
+    background: url('images\bg.jpg');
+    height: 80vh;
+    background-size: cover;  
+}
+#nav{
+    display: flex;
+    list-style: none;
+}
+#header{
+    width: 150px;
+    align-content: center
+}
