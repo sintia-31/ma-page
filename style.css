@@ -1,85 +1,31 @@
-body {
-    height: 100vh;
-    background: linear-gradient(to right, )rgb(189, 18, 98), rgb(252, 251, 251);
-}
-#legende{
-    border: 10px;
-    border-color: rgb(17, 231, 17);
-}
-.logo{
-    width: 100px;
-    height: 50px;
-}
-nav{
-  display: flex;
-  background-color: rgb(35, 228, 35);
 
+*{
+    margin: 0;
+    padding: 0;
 }
-.ac{
-    margin-left: 100px;
-}
-.meilleur{
-    margin-left: 200px;
-}
-.vente{
-    margin-left: 300px;
-}
-a{
+body{
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-.SLOGAN{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: rgb(35, 228, 35);
-
-}
-
-.I1 {
-    
-    width: 300px;
-    height: 200px;
-    border: 5px;
-}
-.I2{
-    width: 300px;
-    height: 200px;
-    border: 5px; 
-}
-.I3{
-    width: 300px;
-    height: 200px;
-    border: 5px; 
-}
-.I4{
-    width: 300px;
-    height: 200px;
-    border: 5px; 
-}
-.element{
+    background-color:  hsl(212, 45%, 89%);
     display: flex;
+    align-items: center; /*pour centrer*/
+    margin-top: 200px;
+  
 }
-.plante{
-    display: flex;
-   
+/*la taille du conteneur */
+.conteneur{
+    max-width: 350px;
+    margin:0 auto;
+    text-align: center;
 }
-.I5{
-    width: 300px;
-    height: 200px;
-    border: 5px; 
+/*les modifs du cadre de l'img et de l'img*/
+.cadre-img{
+   padding: 12px;
+   border-radius: 15px;
+   background-color: hsl(0, 0%, 100%)
 }
-.I6{
-    width: 300px;
-    height: 200px;
-    border: 5px; 
-}
-.mod{
-    display: flex;
-}
-.mot{
-   font-size: 40px;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-style: italic;
-}
+.img{
+    width: 200px;
+    border-radius: 5px;
 
-
+}
